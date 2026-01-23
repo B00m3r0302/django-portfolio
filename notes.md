@@ -14,3 +14,14 @@ uv add django
 ```bash
 uv run django-admin startproject portfolio .
 ```
+- Start dev server with
+```bash
+uv run manage.py runserver
+```
+- Create app with
+```bash
+uv run manage.py startapp <appname>
+```
+- Register your app by adding it to installed apps in settings.py under `portfolio`
+- Register url path in urls.py
+- 
