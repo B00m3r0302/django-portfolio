@@ -85,6 +85,14 @@ p.title
 - variables
 {{variable}}
 
+### Creating a superuser
+```bash
+uv run manage.py createsuperuser
+```
+
+#### Register models
+in admin.py
+
 
 
 
